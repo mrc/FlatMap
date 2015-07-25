@@ -1,4 +1,4 @@
 Swift Array.flatMap
 ===================
 
-A examples to show flatMap on arrays.
+A few examples to show flatMap on arrays.
