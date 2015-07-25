@@ -15,7 +15,7 @@ let searchTerms1 = inputPostcodes
 
 //: Using filter then map is a bit inefficient: it's 2 passes over the array, plus you need to do some work twice if it's used in both functions. With flatMap you can do it with one "fused" function (that does both the lookup, and the filter), and in just one pass over the array.
 
-let searchTerms1 = inputPostcodes
+let searchTerms2 = inputPostcodes
     .flatMap {p -> [String] in
         if let suburb = suburbNameByPostcode[p] {
             return [suburb]
